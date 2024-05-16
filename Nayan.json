@@ -7,7 +7,7 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "𝗧𝗼𝗠𝗴𝗢 ༒︎𝗕𝗮𝗕𝘆",
-  "PREFIX": "/",
+  "PREFIX": "*",
   "OPERATOR": [
     "100085082042087",
     "100085082042087"
