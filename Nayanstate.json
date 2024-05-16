@@ -1,1 +1,137 @@
-
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261559794199398%22%3A%221AHGWOgb%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.969Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "datr",
+        "value": "kwxGZvdkDDWFxvuG94w-qPa_",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "sb",
+        "value": "kwxGZpQDtUP7kFMfLhS5VeRw",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B624x360x2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "wd",
+        "value": "360x624",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "fr",
+        "value": "0jRwENCCunOUhzPZU.AWVDvdIUch9peaJFxuPStYuoWhw.BmRgyT..AAA.0.0.BmRiPt.AWWuTO87jQU",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61559794199398",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "xs",
+        "value": "5%3Avgxr25bEJ6lCjw%3A2%3A1715872749%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101437467%3BT%3A28597879",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2501%3Btimestamp%3A1715872751",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    },
+    {
+        "key": "m_page_voice",
+        "value": "61559794199398",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-16T15:19:25.973Z",
+        "lastAccessed": "2024-05-16T15:19:25.973Z"
+    }
+]
