@@ -46,9 +46,9 @@ module.exports.run = async function({ api, event, Users }) {
     return;
   }
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-    //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
+    //api.changeNickname(`𝗞𝗔𝗪𝗦𝗘𝗥༒︎𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.imgur.com/nLqfTmt.mp4';
+    let gifUrl = 'https://i.imgur.com/4S9JFEd.gif';
 let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি রবট তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি কাওসার তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,13 +66,13 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Mohammad kawser
+DEVELOPER :Mohammad kawsar
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=100085082042087
+https://www.facebook.com/profile.php?id=100085082042087 
 
-🔵WHATSAPP NUMBER: wa.me/+8801739761673
+🔵WHATSAPP NUMBER: wa.me/+8801903910526
 
 🟢SUPPORT EMAIL: bhafejkawser@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
@@ -106,11 +106,11 @@ https://www.facebook.com/profile.php?id=100085082042087
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
-          'https://i.imgur.com/dDSh0wc.jpeg',
-          'https://i.imgur.com/UucSRWJ.jpeg',
-          'https://i.imgur.com/OYzHKNE.jpeg',
-          'https://i.imgur.com/V5L9dPi.jpeg',
-          'https://i.imgur.com/M7HEAMA.jpeg'
+          'https://i.imgur.com/bI6DkA0.gif',
+          'https://i.imgur.com/bI6DkA0.gif ',
+          '',
+          '',
+          ''
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
         fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
@@ -163,7 +163,7 @@ https://www.facebook.com/profile.php?id=100085082042087
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `Hello {name}\nWelcome to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `╭────────────❍\n╰➤ আঁসঁসাঁলাঁমুঁ আঁলাঁইঁকুঁমঁ\n╰➤ 👤 𝐃𝐞𝐚𝐫 : {name}\n╰➤ Welcome to {threadName}\n আঁমাঁরঁ গ্রুঁপেঁ আঁপঁনাঁকেঁ স্বাঁগঁতঁমঁ\●══❥𝄞⋆⃝༎︵{soThanhVien}\n 𝗦𝗼 𝗜 𝗹𝗼𝘃𝗲 𝗺𝘆 𝗺𝗲𝗺𝗯𝗲𝗿\n\n•___💜🌈__\n🥰🌿-তুমি আসক্ত হও-___:))-\n°___:))-তবে নেশায় নয় আল্লাহর ইবাদতে-|!__🍒🖇️✨_\nমঁজাঁ কঁরেঁনঁ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲༒︎☠︎︎ enjoy"\n─────────────────\n[ {time} - {thu} ]\n╰────────────── ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
