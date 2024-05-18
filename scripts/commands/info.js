@@ -26,7 +26,7 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
-var callback = () => api.sendMessage({body:`
+var callback = () => api.sendMessage({body:`\n꧌꧍𝗞𝗔𝗪𝗦𝗘𝗥꧌꧍\n\┏•━━•━•━•━ ◎ ━•━━•━•━•┓
 --------------------------------------------
 𝐍𝐚𝐦𝐞       : 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐊𝐚𝐰𝐬𝐞𝐫
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : 𝐄𝐰-𝐫 𝐊𝐚𝐰𝐬𝐞𝐫
@@ -34,14 +34,14 @@ var callback = () => api.sendMessage({body:`
 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐓𝐚𝐧𝐠𝐚𝐢𝐥, 𝐃𝐡𝐚𝐤𝐚
 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐌𝐨𝐲𝐦𝐨𝐧𝐬𝐢𝐧𝐡, 𝐃𝐡𝐚𝐤𝐚 𝐁𝐲𝐩𝐚𝐬𝐬
 𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝐌𝐚𝐥𝐞
-𝐀𝐠𝐞           : 15+
+𝐀𝐠𝐞           : 16+
 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞
 𝐖𝐨𝐫𝐤        : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
-𝐆𝐦𝐚𝐢𝐥       : bhafejkawser@gmail.con
+𝐆𝐦𝐚𝐢𝐥       : bhafejkawser@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+8801903910526
-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/+8801904104341
+𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/+8801739761673
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=100085082042087`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://graph.facebook.com/100058082042087/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
+      return request(encodeURI(`https://graph.facebook.com/100085082042087/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
